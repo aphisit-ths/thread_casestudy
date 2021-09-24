@@ -6,7 +6,7 @@ namespace thread_casestudy
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello");
         }
     }
 }

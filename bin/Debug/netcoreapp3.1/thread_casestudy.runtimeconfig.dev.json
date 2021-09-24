@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ACER-OAT\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ACER-OAT\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+C:\Users\ACER-OAT\Desktop\thread_casestudy\bin\Debug\netcoreapp3.1\thread_casestudy.exe
+C:\Users\ACER-OAT\Desktop\thread_casestudy\bin\Debug\netcoreapp3.1\thread_casestudy.deps.json
+C:\Users\ACER-OAT\Desktop\thread_casestudy\bin\Debug\netcoreapp3.1\thread_casestudy.runtimeconfig.json
+C:\Users\ACER-OAT\Desktop\thread_casestudy\bin\Debug\netcoreapp3.1\thread_casestudy.runtimeconfig.dev.json
+C:\Users\ACER-OAT\Desktop\thread_casestudy\bin\Debug\netcoreapp3.1\thread_casestudy.dll
+C:\Users\ACER-OAT\Desktop\thread_casestudy\bin\Debug\netcoreapp3.1\thread_casestudy.pdb
+C:\Users\ACER-OAT\Desktop\thread_casestudy\obj\Debug\netcoreapp3.1\thread_casestudy.csprojAssemblyReference.cache
+C:\Users\ACER-OAT\Desktop\thread_casestudy\obj\Debug\netcoreapp3.1\thread_casestudy.AssemblyInfoInputs.cache
+C:\Users\ACER-OAT\Desktop\thread_casestudy\obj\Debug\netcoreapp3.1\thread_casestudy.AssemblyInfo.cs
+C:\Users\ACER-OAT\Desktop\thread_casestudy\obj\Debug\netcoreapp3.1\thread_casestudy.csproj.CoreCompileInputs.cache
+C:\Users\ACER-OAT\Desktop\thread_casestudy\obj\Debug\netcoreapp3.1\thread_casestudy.dll
+C:\Users\ACER-OAT\Desktop\thread_casestudy\obj\Debug\netcoreapp3.1\thread_casestudy.pdb
+C:\Users\ACER-OAT\Desktop\thread_casestudy\obj\Debug\netcoreapp3.1\thread_casestudy.genruntimeconfig.cache
