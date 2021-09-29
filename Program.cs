@@ -42,19 +42,40 @@ namespace thread_casestudy
         {
             if (Data_Global[G_index] % 2 == 0)
             {
+                long before = Sum_Global;
+                Console.WriteLine("1 before : {0} **************************** >",before);
                 Sum_Global -= Data_Global[G_index];
+                Console.WriteLine("if Data : {0}  % 2 == 0 ,",Data_Global[G_index]);
+                Console.WriteLine("Sum_Global : {0} - {1}:Data_Global",before ,Data_Global[G_index]);
+                Console.WriteLine("1 =================================================== Result  : {0}",Sum_Global);
             }
             else if (Data_Global[G_index] % 3 == 0)
-            {
+            {   
+                long before = Sum_Global;
+                Console.WriteLine("2 before : {0} **************************** >",before);
                 Sum_Global += (Data_Global[G_index] * 2);
+                Console.WriteLine("if Data : {0}  % 3 == 0 ,",Data_Global[G_index]);
+                Console.WriteLine("Sum_Global : {0} + {1} x 2:Data_Global",before ,Data_Global[G_index]);
+                Console.WriteLine("2 =================================================== Result : {0}",Sum_Global);
             }
             else if (Data_Global[G_index] % 5 == 0)
             {
+                long before = Sum_Global;
+                Console.WriteLine("3 before : {0} **************************** >",before);
                 Sum_Global += (Data_Global[G_index] / 2);
+                Console.WriteLine("if Data : {0}  % 5 == 0 ,",Data_Global[G_index]);
+                Console.WriteLine("Sum_Global : {0} + {1} / 2:Data_Global",before ,Data_Global[G_index]);
+                Console.WriteLine("3 =================================================== Result : {0}",Sum_Global);
             }
             else if (Data_Global[G_index] % 7 == 0)
-            {
+            {   
+                long before = Sum_Global;
+                Console.WriteLine("4 before : {0} **************************** >",before);
                 Sum_Global += (Data_Global[G_index] / 3);
+                Console.WriteLine("if Data : {0}  % 7 == 0 ,",Data_Global[G_index]);
+                Console.WriteLine("Sum_Global : {0} + {1} / 3:Data_Global",before ,Data_Global[G_index]);
+                Console.WriteLine("4 =================================================== Result : {0}",Sum_Global);
+                 
             }
             Data_Global[G_index] = 0;
             G_index++;
@@ -63,13 +84,11 @@ namespace thread_casestudy
         static void Main(string[] args)
         {
             Stopwatch sw = new Stopwatch();
-            int
-                i,
-                y;
-
+            int i,y;
             /* Read data from file */
             Console.Write("Data read...");
             y = ReadData();
+            
             if (y == 0)
             {
                 Console.WriteLine("Complete.");
@@ -78,20 +97,16 @@ namespace thread_casestudy
             {
                 Console.WriteLine("Read Failed!");
             }
-
             /* Start */
-            Console.Write("\n\nWorking...");
+            Console.WriteLine("\n\nWorking...");
             sw.Start();
-            for (i = 0; i < 1000000000; i++) sum();
+            for (i = 0; i < 1000; i++) sum();
             sw.Stop();
             Console.WriteLine("Done.");
 
             /* Result */
             Console.WriteLine("Summation result: {0}", Sum_Global);
-            Console
-                .WriteLine("Time used: " +
-                sw.ElapsedMilliseconds.ToString() +
-                "ms");
+            Console.WriteLine("Time used: " +sw.ElapsedMilliseconds.ToString() +"ms");
         }
     }
 }
