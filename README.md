@@ -5,3 +5,5 @@
 # จะสังเกตว่าจะ Join() ในช่วงหลัก ก็เพื่อให้ Thread ทำงานไปพร้อมๆ กัน
 
 ## หาก Clone ไปอย่าลืมเอา .dat มาใส่ใน Root Folder
+
+![code](https://user-images.githubusercontent.com/82308226/136287609-c2c0d711-7bfc-4254-8fbb-0221b2deb103.png)
